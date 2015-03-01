@@ -1,0 +1,197 @@
+<!-- AEGIS About Page -->
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"> 
+	<head>
+		<title>AEgis Experiment - CERN</title>
+			<meta charset="utf-8"/>
+			<meta name="description" content="antimatter research">
+			<meta name="author" content="Dana Lee">
+			<meta name="keywords" content="antimatter cern science cooling molecules research laser">
+		<style type="text/css">
+		* {
+			text-align: center;
+			font-family: News Gothic MT, Sans-Serif;
+		}
+
+
+		body {
+			height: 100%;
+			width: 100%;
+			position: relative;
+			float: left;
+			margin: 0px;
+			font-size: 16px;
+		}
+
+		section {
+			padding: 120px 150px 120px 150px;
+
+		}
+
+		main {
+			padding: 166px 0px 166px 0px;
+		}
+
+		nav {
+			text-transform: uppercase;
+			background-color: black;
+			padding: 1px 0px 1px 0px;
+			font-size: 16px;
+			color: white;
+		}
+
+		ul { 
+			position: relative;
+			padding: 0px;
+		}
+
+		li { 
+			display: inline; 
+			padding: 20px 20px;
+			list-style-type: circle;
+		}
+
+		.sWhite {
+			background-color: white;
+			color: black;
+		}
+
+		.sRed {
+			background-color: #783333;
+			color: white;
+			opacity: 0.8;
+		}
+
+		.sBlue {
+			background-color: #29406E;
+			color: white;
+			opacity: 0.8;
+		}
+
+		h1 {
+			text-transform: uppercase;
+			font-style: italic;
+		}
+
+		.imgBackground {
+			float: left;
+			position: fixed;
+			z-index: -1;
+			margin: 0px 0px 0px -800px;
+			width: 120%;
+		}
+
+		.logo {
+			width: 60%;
+			padding: 0px 0px 0px 0px
+
+		}
+
+		.blackLink {
+			color: black;
+			text-decoration: none;
+		}
+
+		.whiteLink {
+			color: white;
+			text-decoration: none;
+		}
+
+		.navLink {
+			color: white;
+			text-decoration: none;
+		}
+
+		.navFixed {
+			position: fixed;
+			text-transform: uppercase;
+			background-color: black;
+			padding: 1px 0px 1px 0px;
+			font-size: 16px;
+			color: white;
+			width: 100%;
+			z-index: 1;
+			margin-top: -52%;
+		}
+
+		</style>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				//alters the colors of the links
+				$(".sWhite a").addClass("blackLink");
+				$(".sRed a").addClass("whiteLink");
+				$(".sBlue a").addClass("whiteLink");
+				$("nav a").addClass("navLink");
+				
+				//alters nav bar
+				var distance = $("nav").offset().top,
+					$window = $(window);
+
+				$window.scroll(function() {
+					if ($window.scrollTop() >= distance) {
+						$("nav").addClass("navFixed");
+					}
+					else if ($scrollTop() <= distance) {
+
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+	<img src="file://localhost/Users/dana/Dana-Files/Codes/projAntimatter/Website/DSC_0394_small.png" class="imgBackground"/>
+		<main>
+			<img src="file://localhost/Users/dana/Dana-Files/Codes/projAntimatter/Logo/logoParts/projAntimatterLogo.png" class="logo" />
+		</main>
+		<nav>
+			<ul>
+				<li><a href="#Home">Home</li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#News">News</a></li>
+				<li><a href="#Multimedia">Multimedia</a></li>
+				<li><a href="#Blogs">Blogs</a></li>
+				<li><a href="#Donate">Donate!</a></li>
+				<li><a href="#Publications">Publications</a></li>
+				<li><a href="#Jobs">Jobs</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+		</nav>
+		<section class="sWhite">
+			<h1>What is antimatter?</h1>
+			<p>
+				In 1928, British physicist Paul Dirac wrote down an equation that combined quantum theory and special relativity to describe the behaviour of an electron moving at a relativistic speed. The equation – which won Dirac the Nobel prize in 1933 – posed a problem: just as the equation x<sup>2</sup>=4 can have two possible solutions (x=2 or x=-2), so Dirac's equation could have two solutions, one for an electron with positive energy, and one for an electron with negative energy. But classical physics (and common sense) dictated that the energy of a particle must always be a positive number. 
+			<br><br>
+				<a href="http://home.web.cern.ch/topics/antimatter">More from CERN >></a></p>
+		</section>
+
+		<section class="sRed">
+			<h1>Does antimatter fall with the same acceleration as matter?</h1>
+			<p>
+				The principle of universality of free fall (or Weak Equivalence Principle, WEP) states that all bodies fall with the same acceleration, independent of mass and composition. The WEP has been tested with <a href="http://iopscience.iop.org/0264-9381/29/18/180301">very high precision for matter</a> but never (directly) for antimatter. 
+			<br><br>
+        		The principal goal of the AEGIS experiment is to test the Weak Equivalence Principle with antihydrogen atoms at the European laboratory for particle physics (<a href="http://www.cern.ch">CERN</a>), using the antiproton decelerator (<a href="http://en.wikipedia.org/wiki/Antiproton_Decelerator">AD</a>) to provide antiprotons and a <sup>22</sup>Na source to supply us with antielectrons, which we combine to form antihydrogen atoms. Tests with charged antiparticles are hopeless, given the extreme weakness of gravity in comparison with the other forces, while tests with (neutral) antihydrogen atoms are merely extremely difficult, since our method requires forming many atoms of antihydrogen at once, giving them a horizontal velocity kick to get them flying in one direction, and finally measuring a tiny vertical shift induced by gravity, all of which require adapting state-of-the art techniques to our special requirements.</p>
+		</section>
+
+		<section class="sWhite">
+			<h1>A very versatile experiment</h1>
+			<p>
+				The AEGIS experiment has many components that can work together but also individually, and has been designed to carry out many other experiments in addition to measureing the gravitational interaction between matter (the Earth) and antimatter (single antihydrogen atoms).
+			<br><br>
+				In addition to antiprotons (from the <a href="http://en.wikipedia.org/wiki/Antiproton_Decelerator">AD</a>) and positrons (from our positron source), we also have electrons (from heated filaments) and protons (from a newly added proton source). The apparatus also includes a fork in the path the positrons take from their source to the main apparatus, allowing us to shoot pulses of positrons into an external test station, where the formation of positronium will be studied.
+			<br>
+				In the course of the coming years, the availability of a pulsed cold antihydrogen beam will allow us to carry out further experiments on antihydrogen as well: our highest priority among these is the <a http="http://en.wikipedia.org/wiki/Spectroscopy">spectroscopy</a> (via microwaves) of antihydrogen atoms in flight, where the very well-defined magnetic fields through which they will be led to pass allows very precise studies of the atomic levels of antihydrogen atoms. But also spectroscopic measurements of the energy levels of positronium are possible in our secondary positron test set-up, as well as studies of antiproton-induced nuclear fragmentation, and many other experiments using the (anti)particles, detectors and techniques that we are working on.</p>
+		</section>
+
+		<section class="sBlue">
+			<h1>An international, interdisciplinary and young team</h1>
+			<p>
+				The <a href="http://aegis.web.cern.ch/aegis/Collaboration.html">AEGIS collaboration</a> consists of experts from many different fields of physics: particle physicists, laser experts, plasma physicists, cryogenics experts, physical chemists, molecular physicists, experts in trapping and laser cooling of atoms and ions, mechanical engineers, computer specialists, positron and positronium experts, material scientists and chemists, ... from Norway, Russia, the UK, Germany, France, the Czech Republic, Austria, Switzerland and Italy.
+			<br><br>
+				Over half of the people working at the experiment at any one time are doctoral and master students; we have many <a href="http://aegis.web.cern.ch/aegis/Jobs.html">possibilities</a> for students to carry out their bachelor, master or PhD thesis with us in a number of cutting edge areas
+			</p>
+		</section>
+	</body>
+</html>
