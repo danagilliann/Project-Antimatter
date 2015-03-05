@@ -94,12 +94,12 @@
 
 		.blackLink {
 			color: black;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 		.whiteLink {
 			color: white;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 		.navLink {
@@ -129,6 +129,8 @@
 
 		.selectedA {text-decoration: underline;}
 
+		.colorHover {color: #999999;}
+
 		</style>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -140,6 +142,7 @@
 				$(".sBlue a").addClass("whiteLink");
 				$("nav a").addClass("navLink");
 				
+
 				//alters nav bar
 				var distance = $("nav").offset().top,
 					$window = $(window);
@@ -193,7 +196,7 @@
 			<br><br>
 				In addition to antiprotons (from the <a href="http://en.wikipedia.org/wiki/Antiproton_Decelerator">AD</a>) and positrons (from our positron source), we also have electrons (from heated filaments) and protons (from a newly added proton source). The apparatus also includes a fork in the path the positrons take from their source to the main apparatus, allowing us to shoot pulses of positrons into an external test station, where the formation of positronium will be studied.
 			<br>
-				In the course of the coming years, the availability of a pulsed cold antihydrogen beam will allow us to carry out further experiments on antihydrogen as well: our highest priority among these is the <a http="http://en.wikipedia.org/wiki/Spectroscopy">spectroscopy</a> (via microwaves) of antihydrogen atoms in flight, where the very well-defined magnetic fields through which they will be led to pass allows very precise studies of the atomic levels of antihydrogen atoms. But also spectroscopic measurements of the energy levels of positronium are possible in our secondary positron test set-up, as well as studies of antiproton-induced nuclear fragmentation, and many other experiments using the (anti)particles, detectors and techniques that we are working on.</p>
+				In the course of the coming years, the availability of a pulsed cold antihydrogen beam will allow us to carry out further experiments on antihydrogen as well: our highest priority among these is the <a href="http://en.wikipedia.org/wiki/Spectroscopy">spectroscopy</a> (via microwaves) of antihydrogen atoms in flight, where the very well-defined magnetic fields through which they will be led to pass allows very precise studies of the atomic levels of antihydrogen atoms. But also spectroscopic measurements of the energy levels of positronium are possible in our secondary positron test set-up, as well as studies of antiproton-induced nuclear fragmentation, and many other experiments using the (anti)particles, detectors and techniques that we are working on.</p>
 		</section>
 
 		<section class="sBlue" id="extraPadding">
